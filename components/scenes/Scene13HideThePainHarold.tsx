@@ -7,7 +7,7 @@ export default function Scene13HideThePainHarold() {
   return (
     <div className="w-full h-full flex flex-col px-4 pt-12 pb-5 text-zinc-800">
       <div className="flex-1 min-h-0 flex items-center justify-center">
-        <div className="relative h-full aspect-[480/590]">
+        <div className="relative w-full max-h-full aspect-[480/590]">
           <Image src="/memes/13-hide-the-pain-harold.jpg" alt="Hide the pain Harold" fill className="object-contain" />
 
           <motion.p

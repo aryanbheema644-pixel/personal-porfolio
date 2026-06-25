@@ -209,7 +209,7 @@ export default function StoryPlayer() {
   if (isMobile) {
     return (
       <div
-        className="relative w-screen h-screen overflow-hidden"
+        className="relative w-screen h-dvh overflow-hidden"
         style={{ background: currentScene.background }}
       >
         {card}

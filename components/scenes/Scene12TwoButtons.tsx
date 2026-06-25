@@ -7,7 +7,7 @@ export default function Scene12TwoButtons() {
   return (
     <div className="w-full h-full flex flex-col px-4 pt-12 pb-4">
       <div className="flex-1 min-h-0 flex items-center justify-center">
-        <div className="relative h-full aspect-[600/900]">
+        <div className="relative w-full max-h-full aspect-[600/900]">
           <Image src="/memes/12-two-buttons.jpg" alt="Two buttons decision" fill className="object-contain" />
 
           {/* labels on the white panels above each red button */}

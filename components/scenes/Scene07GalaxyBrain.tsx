@@ -22,7 +22,7 @@ export default function Scene07GalaxyBrain({ onOpenSubCard }: SceneProps) {
   return (
     <div className="w-full h-full flex flex-col px-4 pt-12 pb-4 text-white">
       <div className="flex-1 min-h-0 flex items-center justify-center">
-        <div className="relative h-full aspect-[857/1200]">
+        <div className="relative w-full max-h-full aspect-[857/1200]">
           <Image src="/memes/07-galaxy-brain.jpg" alt="Expanding brain" fill className="object-contain" />
           {PANELS.map((p, i) => (
             <motion.p
