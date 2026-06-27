@@ -46,15 +46,19 @@ export default function Scene07GalaxyBrain({ onOpenSubCard }: SceneProps) {
       >
         <p className="font-medium text-sm">Base — AI research intelligence platform</p>
         <p className="text-xs text-zinc-400 italic">PM Intensive Intern</p>
-        <button
+        <motion.button
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ delay: 6.9, type: 'spring', stiffness: 320, damping: 22 }}
           onClick={(e) => {
             e.stopPropagation();
             onOpenSubCard();
           }}
-          className="mt-2 text-xs text-zinc-300 underline underline-offset-4 hover:text-white"
+          className="mt-3 inline-flex items-center gap-1.5 rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-zinc-900 shadow-lg transition hover:bg-zinc-100 active:scale-95"
         >
-          tap for the full case →
-        </button>
+          see the full case
+          <span aria-hidden className="text-base leading-none">→</span>
+        </motion.button>
       </motion.div>
     </div>
   );

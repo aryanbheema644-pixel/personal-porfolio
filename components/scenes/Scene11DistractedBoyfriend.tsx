@@ -56,16 +56,17 @@ export default function Scene11DistractedBoyfriend({ onOpenSubCard }: SceneProps
         she knows. she&apos;s accepted it.
       </motion.p>
       <motion.button
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 2.3 }}
+        initial={{ opacity: 0, scale: 0.9 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ delay: 2.3, type: 'spring', stiffness: 320, damping: 22 }}
         onClick={(e) => {
           e.stopPropagation();
           onOpenSubCard();
         }}
-        className="mt-2 text-xs text-zinc-700 underline underline-offset-4 hover:text-black"
+        className="mt-3 inline-flex items-center gap-1.5 rounded-full bg-zinc-900 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-black/25 ring-1 ring-white/10 transition active:scale-95"
       >
-        tap to see what&apos;s cooking →
+        see what&apos;s cooking
+        <span aria-hidden className="text-base leading-none">→</span>
       </motion.button>
     </div>
   );
