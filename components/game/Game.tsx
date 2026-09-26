@@ -386,8 +386,8 @@ export default function Game() {
             Bheema
           </h1>
           <p className="mt-5 max-w-md text-base leading-relaxed text-[var(--text-2)] md:mt-6 md:text-lg">
-            I work where product, growth and AI meet — talking to users, writing the PRD, reading the numbers, and
-            building the systems that take it to market.
+            I build at the intersection of product, AI and growth, turning messy problems into products, automated
+            systems, and GTM engines that actually run.
           </p>
           <div className="mt-6 flex flex-wrap items-center gap-3 md:mt-8">
             <button
