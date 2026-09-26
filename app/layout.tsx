@@ -9,7 +9,7 @@ const mono = JetBrains_Mono({ subsets: ['latin'], weight: ['400', '500'], variab
 export const metadata: Metadata = {
   title: 'Aryan Bheema — press start',
   description:
-    "GTM engineer in the Founder's Office at Beyond Border. Metallurgy student at NIT Warangal. Play through the journey.",
+    'Product, growth and AI systems. Play through the journey — internships, case competitions, hackathons and everything in between.',
 };
 
 export const viewport: Viewport = {

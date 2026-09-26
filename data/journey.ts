@@ -21,9 +21,9 @@ export interface QuestNode {
 export const PLAYER = {
   name: 'Aryan Bheema',
   handle: 'aryan',
-  className: 'GTM Engineer',
+  className: 'Product · Growth · AI',
   origin: 'NIT Warangal · Metallurgical & Materials Engg.',
-  current: "Founder's Office & GTM Engineer @ Beyond Border",
+  current: 'Product · Growth · AI systems',
 };
 
 export const NODES: QuestNode[] = [
@@ -37,7 +37,7 @@ export const NODES: QuestNode[] = [
     role: 'B.Tech, Metallurgical & Materials Engineering',
     when: '2025 – 2029',
     blurb:
-      'Spawned here. Class selected: Metallurgy. Character build: slowly respec’d into AI and go-to-market.',
+      'Home base. Most of this map was built between classes.',
     loot: ['CGPA 8.53', 'Previous save: Valley Oak Jr. College, 97.5%'],
   },
   {
@@ -63,7 +63,7 @@ export const NODES: QuestNode[] = [
     marker: 'LVL 1',
     zone: 'Growth Valley',
     title: 'NOBLEX',
-    role: 'GTM Strategist',
+    role: 'GTM Executive',
     when: 'Nov 2025 – May 2026',
     blurb: 'A closed networking platform for alumni. My job: get people onto it.',
     loot: ['10x adoption via campus distribution', 'Sponsorship + ad revenue', '3 podcasts produced'],
@@ -96,13 +96,13 @@ export const NODES: QuestNode[] = [
   },
   {
     id: 'sih',
-    achievement: 'Metallurgy degree finally useful',
+    achievement: 'Compliance, automated',
     kind: 'side',
     marker: '⚙',
     title: 'Smart India Hackathon',
     role: 'Internal round qualifier',
     blurb:
-      'Built a compliance checker that validates metallurgical data against regulatory requirements. The degree finally came in handy.',
+      'Built a compliance checker that validates product listings against Legal Metrology rules and flags what’s missing or wrong.',
   },
   {
     id: 'velocity',
@@ -148,7 +148,7 @@ export const NODES: QuestNode[] = [
     marker: 'LVL 3',
     zone: "Founder's Office Summit",
     title: 'Beyond Border',
-    role: "Founder's Office & GTM Engineer",
+    role: "Founder's Office",
     when: 'Jul 2026 – now',
     blurb: 'A global talent & immigration firm. I build the AI systems between a website lead and a closed deal.',
     loot: ['RAG case-intelligence (BM25 + semantic, RRF)', 'Personalised visa-screening LLM flow', 'AI lead enrichment → CRM'],
@@ -168,7 +168,7 @@ export const NODES: QuestNode[] = [
     marker: '???',
     zone: 'Next level',
     title: 'Player 2 wanted',
-    blurb: 'The next level isn’t built yet. If you’re hiring, building, or just want to talk GTM + AI, press a button.',
+    blurb: 'The next level isn’t built yet. If you’re hiring, building, or just want to talk product, growth or AI, press a button.',
   },
 ];
 
@@ -176,6 +176,6 @@ export const INVENTORY: { slot: string; items: string[] }[] = [
   { slot: 'AI / LLM', items: ['RAG', 'Prompt engineering', 'Agent harnesses (Pi, OpenClaw, Hermes)', 'OpenRouter model routing'] },
   { slot: 'Automation', items: ['n8n', 'Make', 'Clay', 'Apify', 'Firecrawl', 'Tavily', 'Cron jobs', 'Google Service Accounts'] },
   { slot: 'Product', items: ['PRDs', 'User research', 'MVP validation', 'OMTM', 'ICP & segmentation', 'Amplitude', 'Jira', 'Confluence'] },
-  { slot: 'GTM', items: ['Lead gen', 'Enrichment', 'Outbound systems', 'CRM workflows', 'Sales playbooks', 'Sales Navigator', 'LinkedHelper'] },
+  { slot: 'Growth & GTM', items: ['Lead gen', 'Enrichment', 'Outbound systems', 'CRM workflows', 'Sales playbooks', 'Sales Navigator', 'LinkedHelper'] },
   { slot: 'Code / Data', items: ['Python', 'C++', 'SQL', 'JavaScript', 'Sheets', 'Excel'] },
 ];
